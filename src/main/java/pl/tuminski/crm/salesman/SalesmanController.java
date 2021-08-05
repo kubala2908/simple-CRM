@@ -24,6 +24,7 @@ public class SalesmanController {
         salesman.setEmail("email1");
         salesman.setPhone("phone1");
         salesman.setRegion("region1");
+        salesmanRepository.save(salesman);
         return "salesman added";
     }
 }
